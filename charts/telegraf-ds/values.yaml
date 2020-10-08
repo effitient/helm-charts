@@ -4,7 +4,7 @@
 
 image:
   repo: "telegraf"
-  tag: "1.15-alpine"
+  tag: "1.15.3"
   pullPolicy: IfNotPresent
 
 ## Configure resource requests and limits
@@ -14,7 +14,7 @@ resources:
     memory: 256Mi
     cpu: 0.1
   limits:
-    memory: 2Gi
+    memory: 512Mi
     cpu: 1
 
 ## Configure args passed to Telegraf containers
